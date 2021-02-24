@@ -1,0 +1,18 @@
+.searchResult {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.searchResult > img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.searchResult:hover {
+    transform: scale(1.07);
+
+}

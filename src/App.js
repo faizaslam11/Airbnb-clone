@@ -20,6 +20,7 @@ function App() {
        <Switch>
         <Route path="/search">
         <SearchPage />
+        
 
         </Route>
 
