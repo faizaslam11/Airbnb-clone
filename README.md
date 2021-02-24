@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Creating Airbnb Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is still under develpoment!
+Just be with us and keep checking, we are good to finish! 
 
 ## Available Scripts
 
