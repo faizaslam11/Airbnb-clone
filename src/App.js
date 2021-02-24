@@ -4,27 +4,34 @@ import Home from './Home';
 import Header from './Header';
 import Footer from './Footer';
 
+import { BrowserRouter as Router, Switch, Route } from
+"react-router-dom";
+
 
 function App() {
   return (
 
     //BEM
     <div className="app">
-     <Header/>
-     <Home/>
-     <Footer />
+     <Router>
+       <Header/>
 
-{/* Header */}
+       <Switch>
+        <Route path="/search">
+        <SearchPage />
 
-{/* banner */}
-    {/* Search */}
+        </Route>
 
-{/* Cards */}
+        <Route path ="/">
+        <Home/>
 
-{/* Footer */}
+        </Route>
+      </Switch>
 
-{/* SearchPage */}
-{/* ... */}
+    <Footer />
+    </Router>
+
+
 
     </div>
   );
