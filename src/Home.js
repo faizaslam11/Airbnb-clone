@@ -31,9 +31,24 @@ function Home() {
 
             </div>
             <div className="home__section">
-                <Card/>
-                <Card/>
-                <Card/>
+                <Card 
+                    src="https://media.nomadicmatt.com/2018/apartment.jpg"
+                    title = "1 Bedroom apartment"
+                    description="Superhost with great amenities and a fabolous shopping complex nearby"
+                    price="$70/night"
+                />
+                <Card
+                     src="https://media.nomadicmatt.com/2018/apartment.jpg"
+                    title = "3 Bedroom apartment"
+                    description="Superhost with great amenities and a fabolous shopping complex nearby"
+                    price="$150/night"
+                />
+                <Card
+                     src="https://media.nomadicmatt.com/2018/apartment.jpg"
+                    title = "2 Bedroom apartment"
+                    description="Superhost with great amenities and a fabolous shopping complex nearby"
+                    price="$90/night"
+                />
 
             </div>
         </div>
