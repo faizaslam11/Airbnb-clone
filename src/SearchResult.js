@@ -31,8 +31,12 @@ function SearchResult({
                      <div className="searchResult__stars">
                      <StarIcon className="searchResult__star"/>
                      <p>
-                     <strong>{star}<br/>{price}</strong> 
+                     <strong>{star}<br/></strong> 
                      </p>
+                     <div className="searchResult__price">
+                        <h2>{price}</h2>
+                        <p>{total}</p>
+                     </div>
                 </div>
         
                 </div>

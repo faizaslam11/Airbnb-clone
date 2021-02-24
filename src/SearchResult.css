@@ -14,7 +14,7 @@
 }
 
 .searchResult:hover {
-    transform: scale(1.07);
+    /* transform: scale(1.07); */
     opacity: 0.8;
 
 }
@@ -27,6 +27,16 @@
 
 }
 
+.searchResult__info > h1 {
+    margin-bottom: 30px;
+
+}
+.searchResult__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}
+
 .searchResult__heart {
     position: absolute;
     top: 20px;
@@ -37,7 +47,7 @@
     width: 40vw;
 }
 .searchResult__infoTop > h3 {
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 10px;
 }
 .searchResult__infoTop > p {
@@ -46,12 +56,25 @@
     color: grey;
 }
 
-.searchResult__info > h1 {
-    margin-bottom: 30px;
-
+.searchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
 }
-.searchResult__info > button {
-    border-radius: 30px;
-    text-transform: inherit;
-    margin: 5px;
+
+.searchResult__star {
+    color: red;
+}
+.searchResult__stars {
+    display: flex;
+    align-items: center;
+}
+
+.searchResult__price > p {
+    text-align: right;
+}
+
+.searchResult__price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }

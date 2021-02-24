@@ -4,11 +4,11 @@
  function Card({src, title, description, price}) {
      return (
          <div className= "card">
-         <img src={src} alt="" />
-         <div className= "card__info">
-            <h2>{title}</h2>
-            <h2>{description}</h2>
-            <h2>{price}</h2>
+            <img src={src} alt="" />
+            <div className= "card__info">
+                    <h2>{title}</h2>
+                    <h4>{description}</h4>
+                    <h3>{price}</h3>
 
          </div>
 
