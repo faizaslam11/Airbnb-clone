@@ -2,7 +2,7 @@
 https://airbnb-clone-54a3f.web.app/
 Leave a comment if you have any question or issue!
 
-#I used Firebase for Hosting and Javascript in development!
+## I used Firebase for Hosting and Javascript in development!
 
 
 ## Available Scripts
