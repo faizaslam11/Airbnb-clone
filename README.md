@@ -1,4 +1,4 @@
-### Yo guyz! check this Airbnb clone.
+### Yo guyz! check this Airbnb clone!
 https://airbnb-clone-54a3f.web.app/
 Leave a comment if you have any question or issue!
 
