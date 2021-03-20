@@ -1,6 +1,6 @@
 ### Yo guyz! check this Airbnb clone!
 https://airbnb-clone-54a3f.web.app/
-Leave a comment if you have any question or issue!
+Leave a comment or mail me on faizaslam11@gmail.com if you have any question or issue!
 
 ## I used Firebase for Hosting and Javascript in development!
 
